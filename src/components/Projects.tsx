@@ -5,24 +5,31 @@ import { Github, ExternalLink } from 'lucide-react';
 const projects = [
   {
     title: 'EffortEase - Task Assignment WebApp',
-    description: 'Developed a deep learning model using TensorFlow for multi-class image classification with 95% accuracy.',
+    description: 'Designed a task management system enabling employers to assign tasks and employees to accept, reject, complete, or fail tasks for seamless workflow tracking. Integrated local storage to manage and persist task data efficiently without requiring a backend.',
     technologies: ['React', 'Local-Storage'],
     github: '#',
     demo: '#',
   },
   {
-    title: 'Natural Language Processing Pipeline',
-    description: 'Built an NLP pipeline for sentiment analysis and text classification using BERT and transformers.',
-    technologies: ['Python', 'PyTorch', 'Hugging Face', 'FastAPI'],
-    github: 'https://github.com',
+    title: 'Movie Search Engine',
+    description: 'Developed a movie search engine web app using React, integrating a third-party API for real-time movie data retrieval. Implemented dynamic search functionality with an intuitive UI, enabling users to find movies efficiently',
+    technologies: ['React', 'API'],
+    github: '#',
   },
   {
-    title: 'Time Series Forecasting System',
-    description: 'Implemented a forecasting system using LSTM networks for predicting stock market trends.',
-    technologies: ['Python', 'Keras', 'Pandas', 'Plotly'],
-    github: 'https://github.com',
-    demo: 'https://demo.com',
+    title: 'Email/SMS Spam Detection ',
+    description: 'Developed and compared multiple machine learning algorithms for SMS and email spam detection, achieving an average accuracy of 98%.Implemented Naïve Bayes and ensemble methods to enhance detection rates and improve classification performance.',
+    technologies: ['Python', 'NumPy', 'Pandas', 'Matplotlib' , 'Streamlit'],
+    github: 'https://github.com/kunalbandale/SMS-Email-Spam-Classifier'
   },
+
+  {
+    title: 'Personal Finance Tracker',
+    description: 'Personal Finance Tracker is a Python-based CLI application designed to help users efficiently manage their personal finances. It allows users to track income, expenses, and savings, providing insights into their financial health.',
+    technologies: ['Python', 'CLI' ],
+    github: 'https://github.com/kunalbandale/Personal-Finance-Tracker'
+  },
+
 ];
 
 const Projects = () => {
