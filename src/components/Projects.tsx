@@ -4,11 +4,11 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'AI-Powered Image Classification',
+    title: 'EffortEase - Task Assignment WebApp',
     description: 'Developed a deep learning model using TensorFlow for multi-class image classification with 95% accuracy.',
-    technologies: ['Python', 'TensorFlow', 'OpenCV', 'Docker'],
-    github: 'https://github.com',
-    demo: 'https://demo.com',
+    technologies: ['React', 'Local-Storage'],
+    github: '#',
+    demo: '#',
   },
   {
     title: 'Natural Language Processing Pipeline',
